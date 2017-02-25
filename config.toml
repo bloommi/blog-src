@@ -1,0 +1,51 @@
+baseurl = "https://bloommi.github.io/"
+title = "Mike's Zone"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "My Name"
+googleAnalytics = "XXX"
+disqusShortname = "MikesZone"
+
+[Author]
+    name = "Mike Bloom"
+    profile = "https://google.com/bloommi"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Welcome to Mike's Zone"
+    description = "Updates"
+    github = "https://github.com/bloommi"
+    twitter = "https://twitter.com/mbloom"
+    email = "bloommi@users.noreply.github.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
